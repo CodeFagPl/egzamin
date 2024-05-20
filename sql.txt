@@ -1,6 +1,6 @@
-#Select
-
+#SELECT
 The SELECT DISTINCT statement is used to return only distinct (different) values.
+
 SELECT COUNT(DISTINCT Country) FROM Customers; - liczy różne wartości
 
 
@@ -8,7 +8,6 @@ SELECT COUNT(DISTINCT Country) FROM Customers; - liczy różne wartości
 #WHERE
 SELECT * FROM Customers
 WHERE Country = 'Mexico'; 
-
 
 
 
@@ -162,8 +161,7 @@ WHERE ProductName BETWEEN 'Carnarvon Tigers' AND 'Mozzarella di Giovanni'
 ORDER BY ProductName;
 
 The following SQL statement selects all orders with an OrderDate between '01-July-1996' and '31-July-1996':
-SELECT * FROM Orders
-WHERE OrderDate BETWEEN '1996-07-01' AND '1996-07-31';
+SELECT * FROM Orders WHERE OrderDate BETWEEN '1996-07-01' AND '1996-07-31';
 
 
 
@@ -308,70 +306,47 @@ FROM OrderDetails;
 
 #OPERATORS
 
-+
-Add
++ Add
 
--
-Subtract
+- Subtract
 
-*
-Multiply
+* Multiply
 
-/
-Divide
+/ Divide
 
-%
-Modulo
+% Modulo
 
 
 
-&
-Bitwise AND
-|
-Bitwise OR
-^
-Bitwise exclusive OR
+& Bitwise AND
+| Bitwise OR
+^ Bitwise exclusive OR
 
 
-=
-Equal to
+= Equal to
 
->
-Greater than
+> Greater than
 
-<
-Less than
+< Less than
 
->=
-Greater than or equal to
+>= Greater than or equal to
 
-<=
-Less than or equal to
+<= Less than or equal to
 
-<>
-Not equal to
+<> Not equal to
 
 
 
-+=
-Add equals
--=
-Subtract equals
-*=
-Multiply equals
-/=
-Divide equals
-%=
-Modulo equals
-&=
-Bitwise AND equals
-^-=
-Bitwise exclusive equals
-|*=
-Bitwise OR equals
++= Add equals
+-= Subtract equals
+*= Multiply equals
+/= Divide equals
+%= Modulo equals
+&= Bitwise AND equals
+^-= Bitwise exclusive equals
+|*= Bitwise OR equals
 
-
-ALL
+ALL 
 TRUE if all of the subquery values meet the condition
 
 AND
